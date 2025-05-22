@@ -1,0 +1,56 @@
+.titus {
+    background-color: rgb(190, 190, 253);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .sn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .con{
+    background: rgb(238, 185, 185);
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
+  /* Full HD (1366px) */
+  @media screen and (min-width: 1366px) {
+    body {
+      background-color: lightblue; 
+    }
+  
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  
+  /* Tableta (1024px) */
+  @media screen and (min-width: 1024px) {
+    body {
+      background-color: rgb(238, 226, 221); 
+    }
+  
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+
+  
+  /* Teléfono (600px) */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(181, 238, 235);
+    }
+  
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+
